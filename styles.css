@@ -1,0 +1,30 @@
+nav img {
+    width: 30px;
+    height: auto;
+    margin-right: 16px;
+    border-radius: 100%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    margin: 16px auto;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.aboutMe {
+    border: 1px solid cyan;
+}
+
+.aboutMe img {
+    width: 100px;
+    height: auto;
+    margin: 0px auto;
+    border-radius: 100%;
+}
