@@ -46,3 +46,19 @@ body {
 .color-purple {
     color: purple;
 }
+
+.pageLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 16px 0px;
+}
+
+.pageLogo img {
+    margin: auto;
+    width: 100px;
+}
+
+.carousel-item img {
+    border-radius: 30px;
+}
