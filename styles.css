@@ -62,3 +62,31 @@ body {
 .carousel-item img {
     border-radius: 30px;
 }
+
+.card {
+    border-radius: 20px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.social img {
+    width: 100px;
+    height: auto;
+}
+
+.instagram {
+    border: 5px solid red;
+}
+
+.github {
+    border: 5px solid #8250df;
+}
+
+.linkedin {
+    border: 5px solid #0077b5;
+}
