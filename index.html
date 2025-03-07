@@ -13,7 +13,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
         <div class="container-fluid">
-            <img src="./assets/otter.png" alt="Otter">
+            <img class="otterImg" src="./assets/otter.png" alt="Otter">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -21,7 +21,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav nav-underline">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./pages/portfolio.html">Portfolio</a>
@@ -35,30 +35,81 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="container content">
-
-        <div class="card bg-dark aboutMe" data-bs-theme="dark">
-            <div class="card-body">
-                <h5 class="card-title text-center title">About Me</h5>
-                <div class="d-flex justify-content-center">
-                    <img class="align-self-center" src="./assets/otter.png" alt="Otter">
+    <section id="homeContent">
+    
+        <div class="container content">
+            
+            <!-- About Me Card -->
+            <div class="card bg-dark aboutMe" data-bs-theme="dark">
+                <div class="card-body">
+                    <h5 class="card-title text-center title">About Me</h5>
+                    <div class="d-flex justify-content-center">
+                        <img class="align-self-center" src="./assets/otter.png" alt="Otter" onclick="clickOtterImg()">
+                    </div>
+                    <p class="card-text text-center">Hello! My name is Gavriel Donovan, I am an undergraduate in Computer
+                        Science
+                        currently in Multimedia Nusantara University, Indonesia. I am an ambitious learner and willing to
+                        learn
+                        something new to develop my skills in the long run.</p>
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Click on me to see more about me!!!
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>
+                                            <span>Full Name:</span> Gavriel Donovan
+                                        </li>
+                                        <li>
+                                            <span>Alias:</span> Spectre, GeoTrix
+                                        </li>
+                                        <li>
+                                            <span>Birthday:</span> [REDACTED]
+                                        </li>
+                                        <li>
+                                            <span>Hobbies:</span> Playing games, Watching videos
+                                        </li>
+                                        <li>
+                                            <span>Favorite Foods:</span> Pizza 🍕
+                                        </li>
+                                        <li>
+                                            <span>Favorite Color:</span> <span class="color-teal">Teal</span>, <span class="color-purple">Purple</span>
+                                        </li>
+                                        <li>
+                                            <span>Fun Fact:</span> Otter is the best
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <p class="card-text text-center">Hello! My name is Gavriel Donovan, I am an undergraduate in Computer Science currently in Multimedia Nusantara University, Indonesia. I am an ambitious learner and willing to learn something new to develop my skills in the long run.</p>
             </div>
-        </div>
-
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                    content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
+    
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
             </div>
+    
         </div>
+    
+    </section>
 
-    </div>
+    <section id="footer">
+
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
