@@ -1,7 +1,7 @@
 @keyframes fadeDown{
     from{
         opacity: 0;
-        transform: translateY(-20px);
+        transform: translateY(-30px);
     }
     to{
         opacity: 1;
@@ -12,7 +12,7 @@
 @keyframes fadeUp{
     from{
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(30px);
     }
     to{
         opacity: 1;
@@ -23,7 +23,7 @@
 @keyframes fadeLeft{
     from{
         opacity: 0;
-        transform: translateX(-20px);
+        transform: translateX(-30px);
     }
     to{
         opacity: 1;
@@ -34,7 +34,7 @@
 @keyframes fadeRight{
     from{
         opacity: 0;
-        transform: translateX(20px);
+        transform: translateX(30px);
     }
     to{
         opacity: 1;
@@ -44,24 +44,24 @@
 
 .fade-down {
     opacity: 0;
-    animation: fadeDown 0.5s ease-in forwards;
+    animation: fadeDown 0.7s ease-in forwards;
 }
 
 .fade-up {
     opacity: 0;
-    animation: fadeUp 0.5s ease-in forwards;
+    animation: fadeUp 0.7s ease-in forwards;
 }
 
 .fade-left {
 
     opacity: 0;
-    animation: fadeLeft 0.5s ease-in forwards;
+    animation: fadeLeft 0.7s ease-in forwards;
 }
 
 .fade-right {
 
     opacity: 0;
-    animation: fadeRight 0.5s ease-in forwards;
+    animation: fadeRight 0.7s ease-in forwards;
 }
 
 body {
