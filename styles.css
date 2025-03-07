@@ -59,13 +59,11 @@
 }
 
 .fade-right {
-
     opacity: 0;
     animation: fadeRight 0.7s ease-in forwards;
 }
 
 body {
-
     display: flex;
     flex-direction: column;
 }
@@ -156,4 +154,12 @@ body {
 
 .linkedin {
     border: 5px solid #0077b5;
+}
+
+.enlarge {
+    transition: transform 0.5s;
+}
+
+.enlarge:hover {
+    transform: scale(1.2);
 }
