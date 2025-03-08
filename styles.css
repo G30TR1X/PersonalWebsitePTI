@@ -66,6 +66,7 @@
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 .otterImg {
@@ -162,4 +163,56 @@ body {
 
 .enlarge:hover {
     transform: scale(1.2);
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    color: white;
+    margin-top: auto;
+}
+
+.footerContent p {
+    margin: 0;
+}
+
+.bootstrap {
+    text-decoration: none;
+    color:#8250df;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 32px;
+}
+
+.softSkill {
+    border: 5px solid pink;
+}
+
+.experiences {
+    border: 5px solid greenyellow;
+}
+
+.hardSkill {
+    border: 5px solid gainsboro;
+}
+
+.experienceLogo {
+    width: 32px;
+    border-radius: 100%;
+}
+
+.skills .card {
+    height: 250px;
+}
+
+.skills .card ul {
+    padding: 0;
+    text-align: center;
+    list-style: none;
 }
