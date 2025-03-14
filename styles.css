@@ -178,9 +178,16 @@ body {
     margin: 0;
 }
 
-.bootstrap {
+a {
     text-decoration: none;
+}
+
+.bootstrap {
     color:#8250df;
+}
+
+.aos {
+    color: #f7df1e;
 }
 
 .skills {
